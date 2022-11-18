@@ -1,0 +1,98 @@
+{
+  "name": "oggdude",
+  "title": "FFG Star Wars RPG Oggdude Character Generator",
+  "description": "<p>FFG Star Wars RPG OggDude dataset for Foundry VTT</p>",
+  "version": "1.0.0",
+  "minimumCoreVersion": "9.269",
+  "compatibleCoreVersion": "9.269",
+  "author": "nlx3647",
+  "packs": [
+    {
+      "name": "Oggdude Armor",
+      "label": "oggdude.Armor",
+      "path": "/packs/oggdudearmor.db",
+      "type": "Item"
+    },
+    {
+      "name": "Oggdude Careers",
+      "label": "oggdude.Careers",
+      "path": "/packs/oggdudecareers.db",
+      "type": "Item"
+    },
+    {
+      "name": "Oggdude Forcepowers",
+      "label": "oggdude.ForcePowers",
+      "path": "/packs/oggdudeforcepowers.db",
+      "type": "Item"
+    },
+    {
+      "name": "Oggdude Gear",
+      "label": "oggdude.Gear",
+      "path": "/packs/oggdudegear.db",
+      "type": "Item"
+    },
+    {
+      "name": "Oggdude Itemattachments",
+      "label": "oggdude.ItemAttachments",
+      "path": "/packs/oggdudeitemattachments.db",
+      "type": "Item"
+    },
+    {
+      "name": "Oggdude Itemqualities",
+      "label": "oggdude.ItemQualities",
+      "path": "/packs/oggdudeitemqualities.db",
+      "type": "Item"
+    },
+    {
+      "name": "Oggdude Signature Abilities",
+      "label": "oggdude.SignatureAbilities",
+      "path": "/packs/oggdudesignatureabilities.db",
+      "type": "Item"
+    },
+    {
+      "name": "Oggdude Skilldescriptions",
+      "label": "oggdude.SkillDescriptions",
+      "path": "/packs/oggdudeskilldescriptions.db",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "Oggdude Species",
+      "label": "oggdude.Species",
+      "path": "/packs/oggdudespecies.db",
+      "type": "Item"
+    },
+    {
+      "name": "Oggdude Talents",
+      "label": "oggdude.Talents",
+      "path": "/packs/oggdudetalents.db",
+      "type": "Item"
+    },
+    {
+      "name": "Oggdude Planetary Vehicles",
+      "label": "oggdude.Vehiclesplanetary",
+      "path": "/packs/oggdudevehiclesplanetary.db",
+      "type": "Item"
+    },
+    {
+      "name": "Oggdude Space Vehicles",
+      "label": "oggdude.Vehiclesspace",
+      "path": "/packs/oggdudevehiclesspace.db",
+      "type": "Item"
+    },
+    {
+      "name": "Oggdude Vehicle Weapons",
+      "label": "oggdude.VehicleWeapons",
+      "path": "/packs/oggdudevehicleweapons.db",
+      "type": "Item"
+    },
+    {
+      "name": "Oggdude Weapons",
+      "label": "oggdude.Weapons",
+      "path": "/packs/oggdudeweapons.db",
+      "type": "Item"
+    }
+  ],
+  "url": "https://www.github.com/nlx3647/dataset",
+  "manifest": "https://github.com/nlx3647/dataset4foundry/module.json",
+  "download": "https://github.com/nlx3647/dataset4foundry/dataset-1.0.0.zip"
+}
