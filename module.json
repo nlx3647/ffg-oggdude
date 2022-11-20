@@ -130,6 +130,6 @@
     }
   ],
   "url": "https://www.github.com/nlx3647/dataset",
-  "manifest": "https://github.com/nlx3647/ffg-oggdude/download/latest/module.json",
-  "download": "https://github.com/nlx3647/ffg-oggdude/download/latest/ffg-oggdude.zip"
+  "manifest": "https://github.com/nlx3647/ffg-oggdude/releases/download/latest/module.json",
+  "download": "https://github.com/nlx3647/ffg-oggdude/releases/download/latest/ffg-oggdude.zip"
 }
