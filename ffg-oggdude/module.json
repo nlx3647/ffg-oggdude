@@ -1,11 +1,10 @@
 {
   "title": "FFG New Oggdude Compendium Data",
   "description": "FFG New Oggdude Compendium Data.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "authors": [
     {
       "name": "nlx3647",
-      "url": "https://www.mywebsite.com/",
       "flags": {}
     }
   ],
