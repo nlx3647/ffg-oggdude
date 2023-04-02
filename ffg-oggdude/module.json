@@ -1,0 +1,166 @@
+{
+  "title": "FFG New Oggdude Compendium Data",
+  "description": "FFG New Oggdude Compendium Data.",
+  "version": "1.0.2",
+  "authors": [
+    {
+      "name": "nlx3647",
+      "url": "https://www.mywebsite.com/",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "0.8.6",
+    "verified": "10"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "starwarsffg",
+        "type": "system",
+        "manifest": "https://raw.githubusercontent.com/StarWarsFoundryVTT/StarWarsFFG/master/system.json",
+        "compatibility": {}
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "FFG Talents",
+      "label": "FFG Talents",
+      "path": "packs/talents.db",
+      "type": "Item",
+      "system": "starwarsffg",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "FFG Careers",
+      "label": "FFG Careers",
+      "path": "packs/careers.db",
+      "type": "Item",
+      "system": "starwarsffg",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "FFG Specializations",
+      "label": "FFG Specializations",
+      "path": "packs/specializations.db",
+      "type": "Item",
+      "system": "starwarsffg",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "FFG Itemattachments",
+      "label": "FFG Itemattachments",
+      "path": "packs/itemattachments.db",
+      "type": "Item",
+      "system": "starwarsffg",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "FFG Itemqualities",
+      "label": "FFG Itemqualities",
+      "path": "packs/itemqualities.db",
+      "type": "Item",
+      "system": "starwarsffg",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "FFG Signature Abilities",
+      "label": "FFG Signature Abilities",
+      "path": "packs/signatureabilities.db",
+      "type": "Item",
+      "system": "starwarsffg",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "FFG Forcepowers",
+      "label": "FFG Forcepowers",
+      "path": "packs/forcepowers.db",
+      "type": "Item",
+      "system": "starwarsffg",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "FFG Species",
+      "label": "FFG Species",
+      "path": "packs/species.db",
+      "type": "Item",
+      "system": "starwarsffg",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "FFG Gear",
+      "label": "FFG Gear",
+      "path": "packs/gear.db",
+      "type": "Item",
+      "system": "starwarsffg",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "FFG Vehicle Weapons",
+      "label": "FFG Vehicle Weapons",
+      "path": "packs/vehicleweapons.db",
+      "type": "Item",
+      "system": "starwarsffg",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "FFG Armors",
+      "label": "FFG Armors",
+      "path": "packs/armor.db",
+      "type": "Item",
+      "system": "starwarsffg",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "FFG Space Vehicles",
+      "label": "FFG Space Vehicles",
+      "path": "packs/vehiclesspace.db",
+      "type": "Actor",
+      "system": "starwarsffg",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "FFG Planetary Vehicles",
+      "label": "FFG Planetary Vehicles",
+      "path": "packs/vehiclesplanetary.db",
+      "type": "Actor",
+      "system": "starwarsffg",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "FFG Skilldescriptions",
+      "label": "FFG Skilldescriptions",
+      "path": "packs/skilldescriptions.db",
+      "type": "JournalEntry",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "FFG Weapons",
+      "label": "FFG Weapons",
+      "path": "packs/weapons.db",
+      "type": "Item",
+      "system": "starwarsffg",
+      "private": false,
+      "flags": {}
+    }
+  ],
+  "url": "https://www.github.com/nlx3647/ffg-oggdude",
+  "manifest": "https://github.com/nlx3647/ffg-oggdude/releases/latest/download/module.json",
+  "download": "https://github.com/nlx3647/ffg-oggdude/releases/latest/download/ffg-oggdude.zip",
+  "id": "ffg-oggdude"
+}
