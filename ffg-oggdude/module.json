@@ -1,165 +1,202 @@
 {
-  "title": "FFG New Oggdude Compendium Data",
-  "description": "FFG New Oggdude Compendium Data.",
-  "version": "1.0.3",
+  "id": "ffg-oggdude",
+  "title": "ffg-oggdude",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "starwarsffg",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
   "authors": [
     {
       "name": "nlx3647",
       "flags": {}
     }
   ],
-  "compatibility": {
-    "minimum": "0.8.6",
-    "verified": "10"
-  },
-  "relationships": {
-    "requires": [
-      {
-        "id": "starwarsffg",
-        "type": "system",
-        "manifest": "https://raw.githubusercontent.com/StarWarsFoundryVTT/StarWarsFFG/master/system.json",
-        "compatibility": {}
-      }
-    ]
-  },
   "packs": [
     {
-      "name": "FFG Talents",
-      "label": "FFG Talents",
-      "path": "packs/talents.db",
+      "name": "armor",
+      "label": "Armor",
+      "path": "packs/armor",
       "type": "Item",
       "system": "starwarsffg",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "name": "FFG Careers",
-      "label": "FFG Careers",
-      "path": "packs/careers.db",
+      "name": "weapons",
+      "label": "Weapons",
+      "path": "packs/weapons",
       "type": "Item",
       "system": "starwarsffg",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "name": "FFG Specializations",
-      "label": "FFG Specializations",
-      "path": "packs/specializations.db",
+      "name": "armor-mods",
+      "label": "Armor mods",
+      "path": "packs/armor-mods",
       "type": "Item",
       "system": "starwarsffg",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "name": "FFG Itemattachments",
-      "label": "FFG Itemattachments",
-      "path": "packs/itemattachments.db",
+      "name": "careers",
+      "label": "Careers",
+      "path": "packs/careers",
       "type": "Item",
       "system": "starwarsffg",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "name": "FFG Itemqualities",
-      "label": "FFG Itemqualities",
-      "path": "packs/itemqualities.db",
+      "name": "force-powers",
+      "label": "Force Powers",
+      "path": "packs/force-powers",
       "type": "Item",
       "system": "starwarsffg",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "name": "FFG Signature Abilities",
-      "label": "FFG Signature Abilities",
-      "path": "packs/signatureabilities.db",
+      "name": "gear",
+      "label": "Gear",
+      "path": "packs/gear",
       "type": "Item",
       "system": "starwarsffg",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "name": "FFG Forcepowers",
-      "label": "FFG Forcepowers",
-      "path": "packs/forcepowers.db",
+      "name": "generic-mods",
+      "label": "Generic Mods",
+      "path": "packs/generic-mods",
       "type": "Item",
       "system": "starwarsffg",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "name": "FFG Species",
-      "label": "FFG Species",
-      "path": "packs/species.db",
+      "name": "signature-abilities",
+      "label": "Signature Abilities",
+      "path": "packs/signature-abilities",
       "type": "Item",
       "system": "starwarsffg",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "name": "FFG Gear",
-      "label": "FFG Gear",
-      "path": "packs/gear.db",
+      "name": "specializations",
+      "label": "Specializations",
+      "path": "packs/specializations",
       "type": "Item",
       "system": "starwarsffg",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "name": "FFG Vehicle Weapons",
-      "label": "FFG Vehicle Weapons",
-      "path": "packs/vehicleweapons.db",
+      "name": "species",
+      "label": "Species",
+      "path": "packs/species",
       "type": "Item",
       "system": "starwarsffg",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "name": "FFG Armors",
-      "label": "FFG Armors",
-      "path": "packs/armor.db",
+      "name": "talents",
+      "label": "Talents",
+      "path": "packs/talents",
       "type": "Item",
       "system": "starwarsffg",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "name": "FFG Space Vehicles",
-      "label": "FFG Space Vehicles",
-      "path": "packs/vehiclesspace.db",
-      "type": "Actor",
+      "name": "vehicle-attachments",
+      "label": "Vehicle Attachments",
+      "path": "packs/vehicle-attachments",
+      "type": "Item",
       "system": "starwarsffg",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "name": "FFG Planetary Vehicles",
-      "label": "FFG Planetary Vehicles",
-      "path": "packs/vehiclesplanetary.db",
-      "type": "Actor",
+      "name": "weapon-mods",
+      "label": "Weapon Mods",
+      "path": "packs/weapon-mods",
+      "type": "Item",
       "system": "starwarsffg",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "name": "FFG Skilldescriptions",
-      "label": "FFG Skilldescriptions",
-      "path": "packs/skilldescriptions.db",
+      "name": "skill-descriptions",
+      "label": "Skill Descriptions",
+      "path": "packs/skill-descriptions",
       "type": "JournalEntry",
-      "private": false,
-      "flags": {}
+      "system": "starwarsffg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "name": "FFG Weapons",
-      "label": "FFG Weapons",
-      "path": "packs/weapons.db",
-      "type": "Item",
+      "name": "vehicles-planetary",
+      "label": "Vehicles - Planetary",
+      "path": "packs/vehicles-planetary",
+      "type": "Actor",
       "system": "starwarsffg",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vehicles-space",
+      "label": "Vehicles - Space",
+      "path": "packs/vehicles-space",
+      "type": "Actor",
+      "system": "starwarsffg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
-  ],
-  "url": "https://www.github.com/nlx3647/ffg-oggdude",
-  "manifest": "https://github.com/nlx3647/ffg-oggdude/releases/latest/download/module.json",
-  "download": "https://github.com/nlx3647/ffg-oggdude/releases/latest/download/ffg-oggdude.zip",
-  "id": "ffg-oggdude"
+  ]
 }
